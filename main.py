@@ -14,6 +14,7 @@ def get_password():
 
 
 def now_utcnow():
+    print('Запуск функции now_utcnow()')
     print(f'Текущая дата и время: {datetime.now()}')
     print(f'Текущая дата и время UTC: {datetime.utcnow()}\n')
 
